@@ -16,10 +16,10 @@ namespace WindowsFormsApplication_Sample
         static void Main()
         {
             // 设置为你自己的密钥对
-            string appid = "1000031";
-            string secretId = "AKIDUIDlPDt5mZutfr46NT0GisFcQh1nMOox";
-            string secretKey = "ind5yAd55ZspBc7MCANcxEjuXi8YU8RL";
-            string userid = "380549494";
+            string appid = "";
+            string secretId = "";
+            string secretKey = "";
+            string userid = "";
 
             Conf.Instance().setAppInfo(appid, secretId, secretKey, userid, Conf.Instance().YOUTU_END_POINT);
 
